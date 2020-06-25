@@ -1,0 +1,16 @@
+#DrJava configuration file
+#Wed Oct 03 10:49:29 BDT 2018
+font.main = Bahnschrift-24
+font.line.numbers = Bahnschrift-27
+key.delete.next = [shift DELETE]
+key.delete.previous = [shift BACK_SPACE]
+recent.files = [C:\\Users\\18101289\\p2med.java,C:\\Users\\18101289\\p1Med.java,C:\\Users\\18101289\\p2.java,C:\\Users\\18101289\\p3.java,C:\\Users\\18101289\\p1.java]
+window.height = 1056
+window.width = 1936
+window.x = -8
+window.y = -8
+window.state = 6
+doc.list.width = 242
+last.dir = C:\\Users\\18101289\\p2med.java
+last.interactions.dir = C:\\Users\\18101289
+tabbedpanes.state = 960 540 700 400

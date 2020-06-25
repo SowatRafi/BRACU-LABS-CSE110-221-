@@ -1,0 +1,8 @@
+public class Teacher{
+  String name;
+  String dept;
+  Teacher(String n; String d){
+    name = n;
+    dept = d;
+  }
+}

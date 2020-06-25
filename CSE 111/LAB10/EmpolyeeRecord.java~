@@ -1,0 +1,23 @@
+public class EmpolyeeRecord extends Employee{
+  private double sal;
+  private int yr;
+  private String nid;
+  public void setSalary(double a){
+    sal = a;
+  }
+  public double getSalary(){
+    return sal;
+  }
+  public void setYear(int y){
+    yr = y;
+  }
+  public double getYear(){
+    return yr;
+  }
+  public void setNID(String n){
+    nid = n;
+  }
+  public double getNID(){
+    return nid;
+  }
+}

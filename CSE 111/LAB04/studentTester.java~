@@ -1,0 +1,17 @@
+public class studentTester{
+  public static void main(String args[]){
+    student st1 = new student();
+    st1.getName("John");
+    st1.getID("123");
+    st1.getAddress("Banani");
+    st1.getCGPA("3.99");
+    String n = st1.getName();
+    String i = st1.getID();
+    String a = st1.getAddress();
+    double c = st1.getCGPA();
+    System.out.println(n);
+    System.out.println(i);
+    System.out.println(a);
+    System.out.println(c);
+  }
+}

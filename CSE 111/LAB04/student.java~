@@ -1,0 +1,18 @@
+public class student{
+  public String name;
+  public String address;
+  public String id;
+  public double cgpa;
+  public void setName(String n){
+    name = n;
+  }
+  public void setName(String a){
+    address = a;
+  }
+  public void setName(String i){
+    id = i;
+  }
+  public void setName(double c){
+    cgpa = c;
+  }
+}

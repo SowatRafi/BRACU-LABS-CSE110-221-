@@ -1,0 +1,20 @@
+import java.util.*;
+public class t4{
+  public static void main(String args[]){
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter a word");
+    String s = sc.nextLine();
+    int l = s.length();
+    for(int i=0; i<l; i++){
+      char a = s.charAt(i);
+      int j = s.codePointAt(i);
+      int a[] = new int[91];
+      for(int k=0; k<a.length; k++){
+        if(a[k]==j){
+          a[k]++;
+        
+        for(int i=0; i<l; i++){
+      System.out.println(s.charAt(i)+"which is "+s.codePointAt(i)+ "was found "+ a[k]+ "times.");
+    }
+  }
+}

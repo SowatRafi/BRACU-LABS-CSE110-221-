@@ -1,0 +1,12 @@
+public class Account{
+  String nameKi = "Default Account";
+  double balanceKi = 0.0;
+  Account(){
+  }
+  nameBoshao(String n){
+    nameKi = n;
+  }
+  balanceBoshao(oduble d){
+    balanceKi = d;
+  }
+}

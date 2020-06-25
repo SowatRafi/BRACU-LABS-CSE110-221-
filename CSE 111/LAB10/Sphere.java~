@@ -1,0 +1,9 @@
+public class Sphere extends Shape{
+  private int r;
+  public void area(){
+    double area = 4*Math.PI*r*r;
+  }
+   public String toString(){
+    return "Sphere";
+  }
+}

@@ -1,0 +1,8 @@
+public class BBAStudent extends Student{
+  BBAStudent(){
+    super.getName("Defaukt BBA Student");
+  }
+  BBAStudent(String n){
+    super.getName(n);
+  }
+}

@@ -1,0 +1,7 @@
+public class Animal{
+  public String name;
+  public void getName(){
+  }
+  public void makeNoise(){
+  }
+}
