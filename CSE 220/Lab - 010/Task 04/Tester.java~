@@ -1,0 +1,9 @@
+public class Tester{
+    public static void main (String[] args){
+        sort s = new sort();
+        Object a[] = {5,40,3,2,1};
+        list l = new list(a);
+        Node head = l.gethead();
+        s.selectionSort(head);
+    }
+}
