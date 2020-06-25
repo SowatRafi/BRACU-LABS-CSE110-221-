@@ -1,0 +1,101 @@
+public class WRNcirarray implements Queue{
+  private static final int Capacity=50;
+  Object data[];
+  int front;
+  int rear;
+  int size;
+  
+  public WRNcirarray(){
+  size=0;
+  front=rear=-1;
+  data=new Object[Capacity];
+  }
+  public boolean CanDoctorGoHome(){
+      if(size==0){
+      return true;
+      }else{
+      return false;
+      }
+  }
+  
+  public void RegisterPatient(Object obj)throws OverflowException{
+    if((front==0 && rear==data.length-1) ){
+    throw new OverflowException();
+    }
+    else if(front==-1){
+    front=rear=0;
+    data[rear]=obj;
+    size++;
+    }
+    else if(rear==data.length-1 && front!=0){
+    rear=0;
+    data[rear]=obj;
+    }
+    else{
+    rear=(rear+1)%data.length;
+    data[rear]=obj;
+    size++;
+    }
+  }
+  
+   public Object ServePatient()throws UnderflowException{
+       if(size==0){
+       throw new UnderflowException();
+       }
+      else if(size==1){
+    Object temp=data[front];
+    data[front]=null;
+    front=rear=-1;
+    size--;
+    return temp;
+      }else{
+          Object temp=data[front];
+    data[front]=null;
+    front=(front+1)%data.length;
+    size--; 
+    return temp;
+      }
+  }
+   public void CancelAll(){
+       for(int i=size;i>0;i--){
+       if(size==1){
+    Object temp=data[front];
+    data[front]=null;
+    front=rear=-1;
+    size--;
+      }else{
+          Object temp=data[front];
+    data[front]=null;
+    front=(front+1)%data.length;
+    size--; 
+      }
+       }
+       System.out.println("Doctor need to cancel all appointments for the lunch-time break ");
+   }
+      
+ 
+  public void ShowAllPatient(){
+  Object arr[]=new Object[data.length];
+  for(int i=0;i<arr.length;i++){
+  arr[i]=data[i];
+  }
+  for(int i=0;i<arr.length;i++){
+      if(arr[i]!=null){
+          for(int j=i+1;j<arr.length;j++){
+              if(arr[j]!=null){
+              if(((String)arr[i]).codePointAt(0)>((String)arr[j]).codePointAt(0)){
+              Object temp=arr[i];
+              arr[i]=arr[j];
+              arr[j]=temp;
+              }
+              }
+          }
+      }
+  }
+      for(int k=0;k<arr.length;k++){
+          if(arr[k]!=null){
+          System.out.println(" "+arr[k]);
+          }
+      }
+  }
+  }

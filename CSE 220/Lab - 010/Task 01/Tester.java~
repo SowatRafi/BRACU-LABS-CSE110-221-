@@ -1,0 +1,9 @@
+public class Tester{
+    public static void main(String args []){
+        int array[] = {5,4,3,2,1};
+        Selection s = new Selection();
+        s.selection(array,0);
+        for (int i=0; i<array.length; i++)
+            System.out.print(array[i]+" ");
+    }
+}
