@@ -1,0 +1,7 @@
+public class bankaccountTester{
+  public static void main(String args[]){
+    bankaccount acc1 = new bankaccount();
+    acc1.setName("X");
+    acc1.setAddress("Banani");
+    acc1.setAccountID("123");
+    acc1.setBalance()

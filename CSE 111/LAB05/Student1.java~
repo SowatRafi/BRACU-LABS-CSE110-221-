@@ -1,0 +1,11 @@
+public class Student1{
+  String Name = "default name";
+  Student(){
+  }
+  Student(String n){
+    name = n;
+  }
+  public class String getName(){
+    return name;
+  }
+}

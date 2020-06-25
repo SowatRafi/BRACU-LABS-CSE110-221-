@@ -1,0 +1,7 @@
+public abstract class Shape{
+  private String shapename;
+  void abstract area();
+  String toString(){
+    return shapename;
+  }
+}

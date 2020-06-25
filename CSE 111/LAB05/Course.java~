@@ -1,0 +1,6 @@
+public class Course{
+  String CName;
+  public Course(String c){
+    CName = c;
+  }
+}

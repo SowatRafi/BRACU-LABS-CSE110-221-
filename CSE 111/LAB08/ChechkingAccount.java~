@@ -1,0 +1,8 @@
+public class ChechkingAccount{
+  int numberofAccount = 0;
+  public CheckingAccount(){
+  numberofAccount++;
+  }
+  public CheckingAccount(double d){
+  numberofAccount++;
+  }

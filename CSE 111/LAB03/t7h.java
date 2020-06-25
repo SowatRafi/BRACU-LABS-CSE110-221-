@@ -1,0 +1,10 @@
+import java.util.*;
+public class t7h{
+  public static void main(String args[]){
+    Scanner sc = new Scanner(System.in);
+    String s = "TARC gives the sweetest memories";
+    String b = "o";
+    int result = s.lastIndexOf(b);
+    System.out.println(result);
+  }
+}

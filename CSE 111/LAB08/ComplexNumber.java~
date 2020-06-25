@@ -1,0 +1,11 @@
+public class ComplexNumber extends RealNumber{
+  double imaginary;
+  ComplexNumber(){
+    super(1.0);
+    imaginary = 1.0;
+  }
+  ComplexNumber(double a, double b){
+    super(a);
+    imaginary = b;
+  }
+}

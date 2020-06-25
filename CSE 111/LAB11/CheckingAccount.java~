@@ -1,0 +1,14 @@
+public class CheckingAccount extends Account{
+  CheckingAccount(String n, double b){
+    super(n);
+    setBalance(b);
+  }
+  public String toString(){
+    if(getBalance()>500){
+      return "======================================="+"\n"+"Name : "+super(n)+"\n"+"Account Number : "+accountNumber+"\n"+"Balance : "+"\n"+"=======================================";
+    }
+    else{
+      return "======================================="+"\n"+"Name : "+super(n)+"\n"+"Account Number : "+accountNumber+"\n"+"Balance : "+"\n"+"Your balance is less than the minimum amount"+"\n"+"=======================================";
+    }
+  }
+}

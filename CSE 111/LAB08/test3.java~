@@ -1,0 +1,7 @@
+public class test3{
+  public static void main(String args[]){
+   circle c = new circle();
+   c.radius = 5.00;
+  
+  }
+}

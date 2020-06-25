@@ -1,0 +1,13 @@
+public class FootBallTeam extends Team{
+  FootBallTeam(String n, String m){
+    super(n,m);
+   
+  }
+//  FootBallTeam(){}
+  public String toString(){
+    return "Our name is Brazil"+"\n"+"We play Football";
+  }
+  public void getMascot(){
+    System.out.println(mascot);
+  }
+}

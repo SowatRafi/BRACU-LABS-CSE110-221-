@@ -1,0 +1,14 @@
+public class Car{
+  static int i;
+  public static int getObjectCount(){
+    
+    return i;
+  }
+  Car(int j){
+   i++;
+  }
+  public int getYear(){
+    return getYear();
+  }
+}
+                      

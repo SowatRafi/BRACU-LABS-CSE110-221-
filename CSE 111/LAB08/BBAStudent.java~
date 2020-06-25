@@ -1,0 +1,10 @@
+public class BBAStudent{
+  BBA Student(){
+    SetName = "Default BBA Student";
+    SetDepartment = "BBA";
+  }
+  BBAStudent(String s){
+    SetName = s;
+    SetDepartment = "BBA";
+  }
+}
